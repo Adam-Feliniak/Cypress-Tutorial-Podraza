@@ -28,4 +28,13 @@ describe("E2E - Lesson", () =>{
        cy.get('[data-cy="wyszukiwarka"]')
     
     })
+
+    it.only("Lokalizatory część 2", () =>{
+        cy.visit("/") 
+        cy.contains("Shop now !")
+        cy.contains('[title="Contact us"]', 'Contact us')
+
+        cy.get("li").parents("#home-page-tabs").find("li").first() //może być eq(0)
+        cy.get("li").parents("#home-page-tabs").find("li").contains("Best Sellers")
+    })
 })
