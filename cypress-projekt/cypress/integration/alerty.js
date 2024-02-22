@@ -11,7 +11,7 @@ describe("E2E - Alerty", () => {
 
     it("Alert confrim", () =>{
         cy.get("#alert-confirm").click();
-        cy.on("windows:confrim", tresc => {
+        cy.on("window.confirm", tresc => {
             expect(tresc).to.equal("Zaakceptuj aby kontynuować!")
         }) 
 
