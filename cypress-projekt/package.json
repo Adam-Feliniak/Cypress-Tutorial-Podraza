@@ -15,6 +15,7 @@
     "mochawesome:merge": "npx mochawesome-merge \"cypress/results/mochawesome/*.json\" > mochawesome.json",
     "mochawesome:html": "npx marge mochawesome.json",
     "full:test": "npm run delete:reports && npm run firefox && npm run mochawesome:merge && npm run mochawesome:html "
+
   },
   "keywords": [
     "cypress",

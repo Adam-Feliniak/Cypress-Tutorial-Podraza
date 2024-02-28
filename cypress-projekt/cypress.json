@@ -1,13 +1,13 @@
 {
-    "baseUrl" : "http://www.automationpractice.pl",
-    "inculdeShadowDom" : true,
-    "chromeWebSecurity": true,
-    "viewportHeight": 1080,
-    "viewportWidth": 1920,
-    "video": false,
-    "reporter": "cypress-multi-reporters",
-    "reporterOptions": {
+  "baseUrl": "http://www.automationpractice.pl",
+  "inculdeShadowDom": true,
+  "chromeWebSecurity": true,
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "video": false,
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
     "configFile": "reporter-config.json"
-    }
-
+  },
+  "projectId": "g1owfg"
 }
